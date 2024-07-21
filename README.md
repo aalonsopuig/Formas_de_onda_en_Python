@@ -42,10 +42,19 @@ Este programa genera un ciclo de una onda senoidal y le añade ruido de alta fre
 ---
 ## Generación de Señal CMOS con Ruido
 
-Programa: waveform waveform CMOS con ruido.py<br>
+Programa: waveform CMOS con ruido.py<br>
 Fichero CSV: cmos_con_ruido.csv<br>
 
 Este programa genera una señal CMOS con ruido de alta frecuencia. La señal resultante se guarda en un archivo CSV llamado cmos_con_ruido.csv y se muestra en una gráfica. El programa permite ajustar el nivel de ruido y la frecuencia del ruido mediante variables configurables. 
 
 ![image](https://github.com/user-attachments/assets/427f5d48-f251-4e26-bd00-b80dcb2413a9)
 
+---
+## Generación de onda cuadrada como suma de tres senoidales
+
+Programa: waveform cuadrada fourier.py<br>
+Fichero CSV: cuadrada_fourier3.csv<br>
+
+Este programa genera una onda cuadrada aproximada utilizando la suma de tres ondas senoidales con relaciones de frecuencia 1, 1/3 y 1/5 de una frecuencia base, basándose en la serie de Fourier. La señal resultante se guarda en un archivo CSV llamado onda_cuadrada.csv y se muestra en una gráfica. Las principales variables de configuración incluyen el número de puntos en la señal (num_points), la frecuencia de muestreo (fs) y la frecuencia base de la onda cuadrada (f_base). La amplitud de la señal resultante se normaliza para asegurar que la amplitud máxima sea 1.
+
+![image](https://github.com/user-attachments/assets/1792f73d-9c7f-4bf8-9a2d-266cfc87f84a)
