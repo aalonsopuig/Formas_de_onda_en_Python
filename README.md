@@ -38,3 +38,14 @@ Fichero CSV: seno_con_ruido.csv
 Este programa genera un ciclo de una onda senoidal y le añade ruido de alta frecuencia, asegurando que la amplitud máxima de la señal resultante no supere 1. El nivel de ruido y la frecuencia del ruido son ajustables mediante variables. La señal resultante se guarda en un archivo CSV llamado seno_con_ruido.csv y se muestra en una gráfica. Las variables de configuración principales incluyen el número de puntos en la señal (num_points), la frecuencia de la onda senoidal (f_seno), el factor de ruido (factor_ruido), que determina el porcentaje de la amplitud original que representa el ruido, y el factor de la frecuencia del ruido (f_ruido_factor), que ajusta la frecuencia del ruido en relación a la frecuencia de la onda senoidal.
 
 ![image](https://github.com/user-attachments/assets/ac1aa39c-c4f3-45fd-9a1a-4d504de3aba9)
+
+---
+## Generación de Señal CMOS con Ruido
+
+Programa: waveform waveform CMOS con ruido.py
+Fichero CSV: cmos_con_ruido.csv
+
+Este programa genera una señal CMOS con ruido de alta frecuencia. La señal resultante se guarda en un archivo CSV llamado cmos_con_ruido.csv y se muestra en una gráfica. El programa permite ajustar el nivel de ruido y la frecuencia del ruido mediante variables configurables. 
+
+![image](https://github.com/user-attachments/assets/427f5d48-f251-4e26-bd00-b80dcb2413a9)
+
